@@ -19,7 +19,7 @@ const client = new SapphireClient({
 const main = async () => {
 	try {
 		client.logger.info('Logging in');
-		await client.login('OTQ0NjMyNDI4OTM1NDA1NTg5.YhEbgQ.uPhD7uKq4eQR2Q7ZpmjdfWvIEp4');
+		await client.login('token here');
 		client.logger.info('logged in');
 	} catch (error) {
 		client.logger.fatal(error);
